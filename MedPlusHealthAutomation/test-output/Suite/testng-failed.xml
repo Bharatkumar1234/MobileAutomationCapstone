@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.virtusa.medplus.TestScript.TC_SearchMedicine">
+        <methods>
+          <include name="MedSerach"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.virtusa.medplus.TestScript.TC_SearchMedicine -->
+      <class name="com.virtusa.medplus.TestScript.TC_Search_Loaction">
+        <methods>
+          <include name="setup"/>
+          <include name="SelectingLocation"/>
+        </methods>
+      </class> <!-- com.virtusa.medplus.TestScript.TC_Search_Loaction -->
+      <class name="com.virtusa.medplus.TestScript.TC_Doctors">
+        <methods>
+          <include name="DoctorsSelect"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.virtusa.medplus.TestScript.TC_Doctors -->
+      <class name="com.virtusa.medplus.TestScript.TC_Diagnostics">
+        <methods>
+          <include name="SetuDiagno"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.virtusa.medplus.TestScript.TC_Diagnostics -->
+      <class name="com.virtusa.medplus.TestScript.TC_FactoryOutlet">
+        <methods>
+          <include name="setup"/>
+          <include name="FactoryOutleData"/>
+        </methods>
+      </class> <!-- com.virtusa.medplus.TestScript.TC_FactoryOutlet -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

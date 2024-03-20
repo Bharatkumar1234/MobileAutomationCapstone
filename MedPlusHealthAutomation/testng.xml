@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.virtusa.medplus.TestScript.TC_FactoryOutlet"/>
+      <class name="com.virtusa.medplus.TestScript.TC_SearchMedicine"/>
+      <class name="com.virtusa.medplus.TestScript.TC_Search_Loaction"/>
+      <class name="com.virtusa.medplus.TestScript.TC_Doctors"/>
+      <class name="com.virtusa.medplus.TestScript.TC_Diagnostics"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
